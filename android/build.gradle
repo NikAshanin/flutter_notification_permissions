@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 34
 
+    namespace "com.vanethos.notification_permissions"
+
     defaultConfig {
         minSdkVersion 24
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
